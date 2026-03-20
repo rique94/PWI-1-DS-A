@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>1DS - PW-I</title>
+    </head>
+    <body id="body">
+        <!-- Cabeçalho da Página -->    
+        <header>
+            <h1 onclick="mudar()" id="h1">Programação WEB - I</h1>
+            <nav>
+                <h4>
+                    <a href="index.html">| Home</a>
+                    <a href="quemsomos.html">| Quem somos</a>
+                    <a href="contatos.html">| Contatos </a>
+                </h4>
+            </nav>
+            <hr>
+        </header>
+        <!-- Conteúdo Principal -->
+        <main>
+            <h3 id="eateregg" onclick="easterEgg()">Componentes Curriculares:</h3>
+            <!-- Lista não ordenada (Não sequêncial) -->
+            <!-- Tipos de marcadores => type="disc(default), circle, square"-->
+            <!--<ul type="square">
+                <li><a href="#PWI">PW-I</a></li>
+                <li><a href="#PA">PA</a></li>
+                <li><a href="#PTIC">PTIC</a></li>
+                <li><a href="#BDI">BD-I</a></li>
+                <li><a href="#SEIOT">SEIoT</a></li>
+                <li><a href="#CPRT">CPRT</a></li>
+            </ul>-->
+            <ol type="1">
+                <li><a href="#PWI">PW-I</a></li>
+                <li><a href="#PA">PA</a></li>
+                <li><a href="#PTIC">PTIC</a></li>
+                <li><a href="#BDI">BD-I</a></li>
+                <li><a href="#SEIOT">SEIoT</a></li>
+                <li><a href="#CPRT">CPRT</a></li>
+            </ol>
+            <hr>
+            <!--<dl>
+                <dt><a href="#PWI">PW-I</a></dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur voluptas, explicabo magnam suscipit temporibus enim facilis sequi impedit vitae rerum nulla soluta velit odit eveniet error amet adipisci quis.</dd>
+                <dt><a href="#PA">PA</a></dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum atque laborum doloremque reprehenderit, neque vel odit quod magni alias id soluta ab esse numquam. Dignissimos debitis libero laborum architecto?</dd>
+            </dl>
+            <hr>-->
+            <p>
+                
+                <h3 id="PWI">
+                    PW-I: Programação Web - I <br>
+                    <img src="imagens/COD-WEB.jpg" alt="foto de código" width="10%" eight="10%">
+                </h3>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum pariatur a aperiam similique, sed cupiditate officia velit iure assumenda accusamus eveniet unde at consequuntur libero eius, quidem optio hic officiis! <br>
+                <a href="#h1">Ir para o topo...</a>
+            </p>
+            <p>
+                <h3 id="PA">
+                    - PA: Programação e algoritimos<br>
+                    <img src="imagens/pa.webp" alt="imagem de código" width="10%" eight="10%">
+                </h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, obcaecati quidem? Tempore, exercitationem rem! Consequuntur, ab sint asperiores sed labore illo repellendus, quaerat nemo, vero nesciunt nulla? Qui, assumenda expedita! <br>
+                <a href="#h1">Ir para o topo...</a>
+            </p>
+            <p>
+                
+                <h3 id="PTIC">
+                    - PTIC: Projetos de Tecnologia de Informação e Comunicação<br>
+                    <img src="imagens/ptic.png" alt="imagem de PTIC" width="10%" eight="10%">
+                </h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusantium ab aliquid assumenda enim sunt quis at unde. Odit quos numquam voluptatum sed maxime rem molestiae itaque? Sapiente, ullam provident. <br>
+                <a href="#h1">Ir para o topo...</a>
+            </p>
+            <p>
+                <h3 id="BDI">
+                    - BD I: Banco de Dados I<br>
+                    <img src="imagens/bdi.png" alt="banco de dados imagem" width="10%" eight="10%">
+                </h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tenetur earum voluptas dolorum eos iure ea consectetur unde saepe aut. Corrupti est, itaque cupiditate ad reprehenderit similique vitae error obcaecati? <br>
+                <a href="#h1">Ir para o topo...</a>
+            </p>
+            <p>
+                <h3 id="SEIOT">
+                    - SEIoT: Sistemas Embarcados e IoT<br>
+                    <img src="imagens/seiot.png" alt="seiot imagem" width="10%" eight="10%">
+                </h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aut alias mollitia nam nihil voluptatem. Ducimus similique cupiditate quam repudiandae excepturi vel maiores, velit ex quod error. Mollitia, quas aliquam.</p> <br>
+                <a href="#h1">Ir para o topo...</a>
+            <p>
+                <h3 id="CPRT">
+                    - CPRT: Conduta Profissional e Relações de Trabalho<br>
+                    <img src="imagens/cprt.jpg" alt="CPRT imagem" width="10%" eight="10%">
+                </h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, rerum, minus voluptate similique excepturi iure recusandae dolore voluptatum ex commodi quis suscipit pariatur, consequatur saepe ducimus! Tempore commodi quod perspiciatis! <br>
+                <a href="#h1">Ir para o topo...</a>
+            </p>
+        </main>
+        <!-- Rodapé da página -->
+        <footer>
+            <hr>
+            <a href="#h1">Ir para o topo...</a>
+            <p>&copy; Direitos Reservados 2026 - Desenvolvido por Henrique Garcias</p>
+        </footer>
+        <script>
+            const easteregg = document.getElementById("eateregg");
+            const body = document.getElementById("body");
+
+            function easterEgg()
+            {
+                if(easteregg.innerText ==="Magro, Fino, Slim")
+                {
+                    easteregg.innerText = "Componentes Curriculares:";
+                }
+                else 
+                {
+                    easteregg.innerText = "Magro, Fino, Slim";
+                }
+            }
+            function mudar()
+            {
+                if(body.style.backgroundColor == "black" && body.style.color == "white")
+                {
+                    body.style.color = "black";
+                    body.style.backgroundColor = "white";
+                }   
+                else{
+                    body.style.color = "white";
+                    body.style.backgroundColor = "black";
+                }
+            }
+        </script>
+    </body>
+</html>
