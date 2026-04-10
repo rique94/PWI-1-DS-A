@@ -9,30 +9,31 @@
             text-align: center;
         }
         table {
-            align-items: center;
+            text-align: left;
             margin: auto;
-            border-width: 1px ;
-            border-color: black;
-            border-style: solid;
+        }
+        th {
+            text-align: center;
         }
         td {
             border-width: 1px ;
             border-color: black;
             border-style: solid;
         }
-        #nav {
+        nav {
             text-align: left;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1 id="h1">Contatos</h1>
-            <nav id="nav">
+        <h1 id="h1">Comparação entre HTML e HTML5</h1>
+            <nav>
                 <h4>
                     <a href="index.html">| Home</a>
                     <a href="quemsomos.html">| Quem somos</a>
-                    | Contatos 
+                    <a href="contatos.html">| Contatos</a>  
+                    | Comparações
                     <a href="https://eteccarapicuiba.cps.sp.gov.br/" target="_blank">| Etec Carapicuiba</a>
                 </h4>
             </nav>
@@ -41,64 +42,64 @@
     <main>
         <table border="1">
             <tr>
-                <th colspan="4">Comparação entre HTML e HTML5</th>
+                <th colspan="4">Diferenças entre HTML e HTML5</th>
             </tr>
             <tr>
                 <th>Categoria</th>
-                <th>Recurso</th>
+                <th>Recursos</th>
                 <th>HTML</th>
                 <th>HTML5</th>
             </tr>
             <tr>
                 <td rowspan="2">Estrutura</td>
-                <td>Tags Dinâmicas</td>
-                <td>Uso de divs</td>
+                <td>DOCTYPE</td>
+                <td>Uso de DIVs</td>
                 <td>header, section, footer</td>
             </tr>
             <tr>
-                <td>DOCTYPE</td>
+                <td>Tag semântica</td>
                 <td>Complexo</td>
-                <td>Simples</td>
+                <td>Simples ()</td>
             </tr>
             <tr>
                 <td>Multimídia</td>
-                <td>Aúdio/Vídeo</td>
-                <td>Puglins externos</td>
-                <td>Audio e Vídeo nativos</td>
+                <td>Áudio / Vídeo</td>
+                <td>Plugins externos</td>
+                <td>Áudios e vídeos nativos</td>
             </tr>
             <tr>
                 <td>Formulários</td>
                 <td>Tipos de input</td>
                 <td>Poucas opções</td>
-                <td>email, date, range</td>
+                <td>Email, date, range</td>
             </tr>
             <tr>
                 <td>Gráficos</td>
                 <td>Canvas</td>
                 <td>Não possui</td>
-                <td>Elemento canvas</td>
+                <td>Elementos canvas</td>
             </tr>
             <tr>
                 <td rowspan="2">APIs</td>
-                <td>Geolocalização</td>
+                <td>Geolocalição</td>
                 <td>Não disponivel</td>
-                <td>API de Geolocalização</td>
+                <td>API de geolocalização</td>
             </tr>
             <tr>
-                <td>Drag and Drop</td>
-                <td>Limitado ou inexistente</td>
+                <td>Drang and drop</td>
+                <td>Limitados ou inexistentes</td>
                 <td>Suporte nativo</td>
             </tr>
             <tr>
                 <td rowspan="2">Armazenamento</td>
-                <td>Dados Locais</td>
+                <td>Dados locais</td>
                 <td>Cookies</td>
-                <td>LocalStorage e sessionSotrage</td>
+                <td>LocalStorage e SessionStorage</td>
             </tr>
             <tr>
-                <td>Aplicações offline</td>
+                <td>Aplicações online</td>
                 <td>Não suportado</td>
-                <td>Cache e funcionamento offline</td>
+                <td>Cache e funcionamento online</td>
             </tr>
         </table>
     </main>
