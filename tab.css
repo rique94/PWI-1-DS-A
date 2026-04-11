@@ -16,7 +16,9 @@ td {
 nav {
     text-align: left;
 }
-button {
+a {
+    text-decoration: none;
+    color: black;
     background-color: white;
     border-color: black;
     border-width: 1px;
