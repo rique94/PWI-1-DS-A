@@ -5,6 +5,9 @@ body {
     padding: 0px;
     color: #333333;
 }
+main {
+    background-color: #f4f4f4;
+}
 header, footer{
     text-align: center;
     padding: 15px;
@@ -30,5 +33,9 @@ main{
 }
 h3{
     text-align: center;
+    color: #0d6efd;
+}
+.label{
+    font-weight: bold;
     color: #0d6efd;
 }
