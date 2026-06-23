@@ -5,6 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1DS-A-PW-I</title>
     <link rel="stylesheet" href="estilos.css">
+    <style>
+        .linkLi a{
+            text-decoration: none;
+            color: black;
+            transition: 0.3s;
+        }
+        li {
+            transition: 0.3s;
+            line-height: 2.0;
+        }
+        .linkLi a:hover{
+            background-color: #0d6efd;
+            color: white;
+            text-decoration: underline;
+            font-size: 12pt;
+            padding: 7px;
+            border-radius: 10px;
+            transition: 0.3s;
+            cursor: pointer;
+        } 
+        li:hover {
+            transition: 0.3s;
+            margin: 2px;
+        }
+    </style>
 </head>
 <body>
     <!-- Cabeçalho da Página -->    
@@ -19,83 +44,83 @@
                     | <a href="https://eteccarapicuiba.cps.sp.gov.br/" target="_blank" class="navBnt">Etec Carapicuiba</a> 
                 </h4>
             </nav>
-        </header>
-        <!-- Conteúdo Principal -->
-        <main>
-            <h3>Componentes Curriculares:</h3>
-            <!-- Lista não ordenada (Não sequêncial) -->
-            <!-- Tipos de marcadores => type="disc(default), circle, square"-->
-            <!--<ul type="square">
+    </header>
+    <!-- Conteúdo Principal -->
+    <main>
+        <h3>Componentes Curriculares:</h3>
+        <section class="linkLi">
+            <ul>
                 <li><a href="#PWI">PW-I</a></li>
                 <li><a href="#PA">PA</a></li>
                 <li><a href="#PTIC">PTIC</a></li>
                 <li><a href="#BDI">BD-I</a></li>
                 <li><a href="#SEIOT">SEIoT</a></li>
                 <li><a href="#CPRT">CPRT</a></li>
-            </ul>-->
-            <ol type="1">
-                <li><a href="#PWI">PW-I</a></li>
-                <li><a href="#PA">PA</a></li>
-                <li><a href="#PTIC">PTIC</a></li>
-                <li><a href="#BDI">BD-I</a></li>
-                <li><a href="#SEIOT">SEIoT</a></li>
-                <li><a href="#CPRT">CPRT</a></li>
-            </ol>
-            <hr>
-            <!--<dl>
-                <dt><a href="#PWI">PW-I</a></dt>
-                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus pariatur voluptas, explicabo magnam suscipit temporibus enim facilis sequi impedit vitae rerum nulla soluta velit odit eveniet error amet adipisci quis.</dd>
-                <dt><a href="#PA">PA</a></dt>
-                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolorum atque laborum doloremque reprehenderit, neque vel odit quod magni alias id soluta ab esse numquam. Dignissimos debitis libero laborum architecto?</dd>
-            </dl>
-            <hr>-->
-        <p>    
-            <h3 id="PWI">
-                PW-I: Programação Web - I <br>
-                <img src="imagens/COD-WEB.jpg" alt="foto de código" width="10%" eight="10%">
-            </h3>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum pariatur a aperiam similique, sed cupiditate officia velit iure assumenda accusamus eveniet unde at consequuntur libero eius, quidem optio hic officiis! <br>
-            <a href="#h1">Ir para o topo...</a>
-        </p>
-        <p>
-            <h3 id="PA">
-                - PA: Programação e algoritimos<br>
-                <img src="imagens/pa.webp" alt="imagem de código" width="10%" eight="10%">
-            </h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, obcaecati quidem? Tempore, exercitationem rem! Consequuntur, ab sint asperiores sed labore illo repellendus, quaerat nemo, vero nesciunt nulla? Qui, assumenda expedita! <br>
-            <a href="#h1">Ir para o topo...</a>
-        </p>
-        <p>    
-            <h3 id="PTIC">
-                - PTIC: Projetos de Tecnologia de Informação e Comunicação<br>
-                <img src="imagens/ptic.png" alt="imagem de PTIC" width="10%" eight="10%">
-            </h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusantium ab aliquid assumenda enim sunt quis at unde. Odit quos numquam voluptatum sed maxime rem molestiae itaque? Sapiente, ullam provident. <br>
-            <a href="#h1">Ir para o topo...</a>
-        </p>
-        <p>
-            <h3 id="BDI">
-                - BD I: Banco de Dados I<br>
-                <img src="imagens/bdi.png" alt="banco de dados imagem" width="10%" eight="10%">
-            </h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tenetur earum voluptas dolorum eos iure ea consectetur unde saepe aut. Corrupti est, itaque cupiditate ad reprehenderit similique vitae error obcaecati? <br>
-            <a href="#h1">Ir para o topo...</a>
-        </p>
-        <p>
-            <h3 id="SEIOT">
-                - SEIoT: Sistemas Embarcados e IoT<br>
-                <img src="imagens/seiot.png" alt="seiot imagem" width="10%" eight="10%">
-            </h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aut alias mollitia nam nihil voluptatem. Ducimus similique cupiditate quam repudiandae excepturi vel maiores, velit ex quod error. Mollitia, quas aliquam.</p> <br>
-            <a href="#h1">Ir para o topo...</a>
-        <p>
-            <h3 id="CPRT">
-                - CPRT: Conduta Profissional e Relações de Trabalho<br>
-                <img src="imagens/cprt.jpg" alt="CPRT imagem" width="10%" eight="10%">
-            </h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, rerum, minus voluptate similique excepturi iure recusandae dolore voluptatum ex commodi quis suscipit pariatur, consequatur saepe ducimus! Tempore commodi quod perspiciatis! <br>
-            <a href="#h1">Ir para o topo...</a>
-        </p>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <article>
+                <p>
+                    <h3 id="PWI">
+                        PW-I: Programação Web - I <br>
+                        <img src="imagens/COD-WEB.jpg" alt="foto de código" width="10%" eight="10%">
+                    </h3>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum pariatur a aperiam similique, sed cupiditate officia velit iure assumenda accusamus eveniet unde at consequuntur libero eius, quidem optio hic officiis! <br>
+                    <a href="#h1">Ir para o topo...</a>
+                </p>
+            </article>
+            <article>
+                <p>
+                    <h3 id="PA">
+                        - PA: Programação e algoritimos<br>
+                        <img src="imagens/pa.webp" alt="imagem de código" width="10%" eight="10%">
+                    </h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, obcaecati quidem? Tempore, exercitationem rem! Consequuntur, ab sint asperiores sed labore illo repellendus, quaerat nemo, vero nesciunt nulla? Qui, assumenda expedita! <br>
+                    <a href="#h1">Ir para o topo...</a>
+                </p>
+            </article>
+            <article>
+                <p>
+                    <h3 id="PTIC">
+                        - PTIC: Projetos de Tecnologia de Informação e Comunicação<br>
+                        <img src="imagens/ptic.png" alt="imagem de PTIC" width="10%" eight="10%">
+                    </h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis accusantium ab aliquid assumenda enim sunt quis at unde. Odit quos numquam voluptatum sed maxime rem molestiae itaque? Sapiente, ullam provident. <br>
+                    <a href="#h1">Ir para o topo...</a>
+                </p>
+            </article>
+            <article>
+                <p>
+                    <h3 id="BDI">
+                        - BD I: Banco de Dados I<br>
+                        <img src="imagens/bdi.png" alt="banco de dados imagem" width="10%" eight="10%">
+                    </h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tenetur earum voluptas dolorum eos iure ea consectetur unde saepe aut. Corrupti est, itaque cupiditate ad reprehenderit similique vitae error obcaecati? <br>
+                    <a href="#h1">Ir para o topo...</a>
+                </p>
+            </article>
+            <article>
+                <p>
+                    <h3 id="SEIOT">
+                        - SEIoT: Sistemas Embarcados e IoT<br>
+                        <img src="imagens/seiot.png" alt="seiot imagem" width="10%" eight="10%">
+                    </h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aut alias mollitia nam nihil voluptatem. Ducimus similique cupiditate quam repudiandae excepturi vel maiores, velit ex quod error. Mollitia, quas aliquam.</p> <br>
+                    <a href="#h1">Ir para o topo...</a>
+                </p>
+            </article>
+            <article>
+                <p>
+                    <h3 id="CPRT">
+                        - CPRT: Conduta Profissional e Relações de Trabalho<br>
+                        <img src="imagens/cprt.jpg" alt="CPRT imagem" width="10%" eight="10%">
+                    </h3>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, rerum, minus voluptate similique excepturi iure recusandae dolore voluptatum ex commodi quis suscipit pariatur, consequatur saepe ducimus! Tempore commodi quod perspiciatis! <br>
+                    <a href="#h1">Ir para o topo...</a>
+                </p>
+            </article>
+        </section>
     </main>
     <!-- Rodapé da página -->
     <footer>
