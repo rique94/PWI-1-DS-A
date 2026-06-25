@@ -1,83 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contatos</title>
-    <link rel="stylesheet" href="estilos.css">
-    <style>
-        button{
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            background-color: #626764;
-            color: #ffffff;
-            transition: 0.3s;
-        }
-        .btn-cadastrar{
-            background-color: #198734;
-            color: white;
-        }
-        .bnt-apagar{
-            background-color: #dc3545;
-            color: white;
-        }
-        .btn:hover{
-            opacity: 0.8;
-            cursor: pointer;
-        }
-        .acoes{
-            text-align: center;
-            background-color: #e9ecef;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1 id="h1">Contatos</h1>
-        <nav>
-            <h4>
-                | <a href="index.html">Home</a>
-                | <a href="quemsomos.html">Quem somos</a>
-                | Contatos
-                | <a href="cronologiahtml.html">Cronologia HTML</a>
-                | <a href="https://eteccarapicuiba.cps.sp.gov.br/" target="_blank">Etec Carapicuiba</a>
-            </h4>
-        </nav>
-    </header>
-    <main>
-        <h3>CADASTRO</h3>
-        <table>
-            <tr>
-                <th colspan="2">Dados Pessoais para Contato</th>
-            </tr>
-            <tr>
-                <td class="label">Nome: </td>
-                <td>xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxx</td>
-            </tr>
-            <tr>
-                <td class="label">Idade: </td>
-                <td>xx</td>
-            </tr>
-            <tr>
-                <td class="label">E-Mail: </td>
-                <td>xxxxxxxxxxxxx@aluno.cps.sp.gov.br</td>
-            </tr>
-            <tr>
-                <td class="label">Telefone-Contato:</td>
-                <td>(xx) 99999-9999</td>
-            </tr>
-            <tr style="text-align: center;">
-                <td colspan="2" class="acoes">
-                    <button class="btn btn-cadastrar">Cadastar</button>
-                    <button class="btn bnt-apagar">Apagar</button>
-                </td>
-            </tr>
-        </table>
-    </main>
-    <footer>
-        <p>&copy; Direitos Reservados 2026 - Desenvolvido por Henrique Garcias</p>
-        <a href="#h1">Ir para o topo...</a>
-    </footer>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contatos</title>
+		<link rel="stylesheet" href="estilos.css" />
+		<style>
+			.tabela-contato {
+				width: 50%;
+				margin: auto;
+				border-collapse: collapse;
+				background-color: #ffffff;
+				box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+				border-radius: 10px;
+				overflow: hidden;
+			}
+			.tabela-contato th {
+				background-color: #60606c;
+				color: #ffffff;
+				padding: 15px;
+			}
+            .tabela-contato td{
+                padding: 12px;
+                border-bottom: 1px solid #aba4a4;
+            }
+            .tabela-contato tr:hover{
+                background-color: #cac6c6;
+            }
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1 id="h1">Contatos</h1>
+			<nav>
+				<h4>
+					| <a href="index.html">Home</a> |
+					<a href="quemsomos.html">Quem somos</a> | Contatos |
+					<a href="cronologiahtml.html">Cronologia HTML</a> |
+					<a href="https://eteccarapicuiba.cps.sp.gov.br/" target="_blank"
+						>Etec Carapicuiba</a
+					>
+				</h4>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<h3>CADASTRO</h3>
+				<table class="tabela-contato">
+					<thead>
+						<tr>
+							<th colspan="2">Dados Pessoais para Contato</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="label">Nome:</td>
+							<td>xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxx</td>
+						</tr>
+						<tr>
+							<td class="label">Idade:</td>
+							<td>xx</td>
+						</tr>
+						<tr>
+							<td class="label">E-Mail:</td>
+							<td>xxxxxxxxxxxxx@aluno.cps.sp.gov.br</td>
+						</tr>
+						<tr>
+							<td class="label">Telefone-Contato:</td>
+							<td>(xx) 99999-9999</td>
+						</tr>
+						<tr style="text-align: center">
+							<td colspan="2" class="acoes">
+								<button class="btn btn-cadastrar">Cadastar</button>
+								<button class="btn bnt-apagar">Apagar</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; Direitos Reservados 2026 - Desenvolvido por Henrique Garcias</p>
+			<a href="#h1">Ir para o topo...</a>
+		</footer>
+	</body>
 </html>
