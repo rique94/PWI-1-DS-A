@@ -51,38 +51,49 @@
 		<main>
 			<section>
 				<h3>CADASTRO</h3>
-				<!--Tabela aqui-->
-				<table class="tabela-contato">
-					<thead>
-						<tr>
-							<th colspan="2">Dados Pessoais para Contato</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td class="label">Nome:</td>
-							<td>xxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxx</td>
-						</tr>
-						<tr>
-							<td class="label">Idade:</td>
-							<td>xx</td>
-						</tr>
-						<tr>
-							<td class="label">E-Mail:</td>
-							<td>xxxxxxxxxxxxx@aluno.cps.sp.gov.br</td>
-						</tr>
-						<tr>
-							<td class="label">Telefone-Contato:</td>
-							<td>(xx) 99999-9999</td>
-						</tr>
-						<tr style="text-align: center">
-							<td colspan="2" class="acoes">
-								<button class="btn btn-cadastrar">Cadastar</button>
-								<button class="btn bnt-apagar">Apagar</button>
-							</td>
-						</tr>
-					</tbody>
-				</table>
+				<!--Definição de Tabela-->
+				<!--Definição de Formulário-->
+				<form action="" method="post">
+					<table class="tabela-contato">
+						<thead>
+							<tr>
+								<th colspan="2">Dados Pessoais para Contato</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="label"><label for="f_nome">Nome: </label></td>
+								<td>
+									<input type="text" name="name" id="f_nome" size="40" maxlength="40" placeholder="Nome">
+								</td>
+							</tr>
+							<tr>
+								<td class="label"><label for="f_idade">Idade: </label></td>
+								<td>
+									<input type="number" name="idade" id="f_nome" size="4" maxlength="2" placeholder="Idade">
+								</td>
+							</tr>
+							<tr>
+								<td class="label"><label for="f_mail">Email: </label></td>
+								<td>
+									<input type="text" name="email" id="f_mail" size="40" maxlength="40" placeholder="Email">
+								</td>
+							</tr>
+							<tr>
+								<td class="label"><label for="f_fone">Telefone: </label></td>
+								<td>
+									<input type="text" name="telefone" id="f_fone" size="12" maxlength="11" placeholder="Telefone">
+								</td>
+							</tr>
+							<tr style="text-align: center">
+								<td colspan="2" class="acoes">
+									<button class="btn btn-cadastrar" type="submit">Cadastar</button>
+									<button class="btn bnt-apagar">Apagar</button>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
 			</section>
 		</main>
 		<footer>
