@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Essa página tem a finalidade de comparar a primeira versão do HTML com a ultima versão que é o HTML5 ">
+    <meta name="author" content="Autor">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th {
+            background-color: #08034b;
+            color: #ffffff;
+            padding: 15px;
+            font-size: 18px;
+        }
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="h1">Cronologia</h1>
+        <nav>
+            <h4>
+                | <a href="index.html">Home</a>
+                | <a href="quemsomos.html">Quem somos</a>
+                | <a href="contatos.html">Contatos</a>  
+                | Cronologia HTML
+                | <a href="https://eteccarapicuiba.cps.sp.gov.br/" target="_blank">Etec Carapicuiba</a>
+            </h4>
+        </nav>
+    </header>
+    <main>
+        <h3>HTML vs HTML5</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">Diferenças entre HTML e HTML5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Recursos</th>
+                    <th>HTML</th>
+                    <th>HTML5</th>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="label">Estrutura</td>
+                    <td>DOCTYPE</td>
+                    <td>Uso de DIVs</td>
+                    <td>header, section, footer</td>
+                </tr>
+                <tr>
+                    <td>Tag semântica</td>
+                    <td>Complexo</td>
+                    <td>Simples ()</td>
+                </tr>
+                <tr>
+                    <td class="label">Multimídia</td>
+                    <td>Áudio / Vídeo</td>
+                    <td>Plugins externos</td>
+                    <td>Áudios e vídeos nativos</td>
+                </tr>
+                <tr>
+                    <td class="label">Formulários</td>
+                    <td>Tipos de input</td>
+                    <td>Poucas opções</td>
+                    <td>Email, date, range</td>
+                </tr>
+                <tr>
+                    <td class="label">Gráficos</td>
+                    <td>Canvas</td>
+                    <td>Não possui</td>
+                    <td>Elementos canvas</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="label">APIs</td>
+                    <td>Geolocalição</td>
+                    <td>Não disponivel</td>
+                    <td>API de geolocalização</td>
+                </tr>
+                <tr>
+                    <td>Drang and drop</td>
+                    <td>Limitados ou inexistentes</td>
+                    <td>Suporte nativo</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="label">Armazenamento</td>
+                    <td>Dados locais</td>
+                    <td>Cookies</td>
+                    <td>LocalStorage e SessionStorage</td>
+                </tr>
+                <tr>
+                    <td>Aplicações online</td>
+                    <td>Não suportado</td>
+                    <td>Cache e funcionamento online</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; Direitos Reservados 2026 - Desenvolvido por Henrique Garcias</p>
+        <a href="#h1">Ir para o topo...</a>
+    </footer>
+</body>
+</html>
